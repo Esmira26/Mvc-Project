@@ -1,0 +1,150 @@
+﻿@using System.Security.Claims;
+@model List<Sebet>;
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Russo+One&family=Send+Flowers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/Sebet.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="yumru">
+        <ul>
+            <li><a href="" target="_blank"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="https://www.whatsapp.com/agciceyim/"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://www.instagram.com/agciceyim/"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com/agciceyim/"><i class="fa-brands fa-facebook-f"></i></a></li>
+        </ul>
+        <i class="fa-regular fa-comment-dots"></i>
+    </div>
+    <nav>
+        <a href="/Home/Index" class="a1"><h1>Kharı Bulbul</h1><img src="/img/g9-removebg-preview.png"></a>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="icon">
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="/Home/Love"><i class="fa-solid fa-heart"></i></a>
+                <a href="/Home/Sebet"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="/User/Cixis"><i class="fa-solid fa-right-to-bracket"></i></a>
+            </div>
+        }
+        else
+        {
+            <div class="icon">
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="/User/Login"><i class="fa-solid fa-user"></i></a>
+                <a href="/User/Login"><i class="fa-solid fa-heart"></i></a>
+                <a href="/User/Login"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        }
+        <div class="ul">
+            <ul>
+                <a href="/Home/Mehsul">
+                <li>Buketər</li></a>
+                <a href="/Home/Mehsul">
+                <li>Kompozisiyalar</li></a>
+                <a href="/Home/Mehsul">
+                <li>Gəlin buketi</li></a>
+                <a href="/Home/Mehsul">
+                <li>Hədiyyələr</li></a>
+              
+            </ul>
+        </div>
+    </nav>
+
+    <header>
+        <div class="hdr">
+            <h1>Səbət</h1>
+            <div class="table">
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>Məhsul</th>
+                            <th>Qiymət</th>
+                            <th>Miqdar</th>
+                            <th>Məbləğ</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       @{
+                         int? sum = 0;
+                        }
+                        @foreach (var item in Model)
+                        {
+                            sum += item.SebetMehsul.MehsulQiymeti * item.SebetMehsulCount;
+                            <tr>
+                            <td><a href="/Home/Remove/@item.SebetMehsul.MehsulId"><i class="fa-solid fa-trash-can"></i></a><a href=""><img src="/img/@item.SebetMehsul.MehsulSekil" alt=""></a></td>
+                            <td>@item.SebetMehsul.MehsulAd</td>
+                                <td>@item.SebetMehsul.MehsulQiymeti₼</td>
+                            <td>
+                                <div class="quantity">
+                                    <div class="control">
+                                        <form asp-action="minus" asp-controller="Home" asp-route-id="@item.SebetId">
+												<button class="btn55"><i class="fa-solid fa-caret-down"></i></button>
+                                        </form>
+                                        <p>@item.SebetMehsulCount</p>
+                                            <form asp-action="plus" asp-controller="Home" asp-route-id="@item.SebetId">
+												<button class="btn55"><i class="fa-solid fa-caret-up"></i></button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </td>
+                                <td>@(item.SebetMehsul.MehsulQiymeti * item.SebetMehsulCount)₼</td>
+                        </tr>                           
+                        }
+                    </tbody>
+                </table>
+                <div class="alt">
+                    <div class="bir">
+                        <h2>Ümumi məbləğ:</h2>
+                        <span>@sum₼</span>
+                    </div>
+                    <div class="iki">
+                        <a href="/Home/Sifaris"><h3>Sifarişi tamamla</h3></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="footer">
+        <div class="footer1">
+            <h1>Əlaqə</h1>
+            <p>+99450 671 74 23</p>
+            <h3>Çatdırılma 24/7</h3>
+        </div>
+        <div class="footer2">
+            <h1>Bizi Izləyin</h1>
+            <div class="icon1">
+                <a href=""><i class="fa-brands fa-facebook-f"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer3">
+            <div class="soz">
+                <h1>© 2021-2023 Kharı Bulbul</h1>
+                <h2>A2Studio tərəfindən yaradılıb</h2>
+            </div>
+            <div class="ahref">
+                <a href="">Çatdırılma və ödəniş</a>
+                <a href="">Filiallar</a>
+                <a href="">Statuslar</a>
+            </div>
+            <div class="kartlar">
+                <img src="https://agciceyim.az/data/payment_icons/3.png" alt="">
+                <img src="https://agciceyim.az/data/payment_icons/4.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <script src="/js/Melumat.js"></script>
+</body>
+</html>

@@ -1,0 +1,993 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\WebApplication20.bundle.scp.css",
+      "PackagePath": "staticwebassets\\WebApplication20.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\AdminPanel.css",
+      "PackagePath": "staticwebassets\\css\\AdminPanel.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\Duzelis.css",
+      "PackagePath": "staticwebassets\\css\\Duzelis.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\Elaqe.css",
+      "PackagePath": "staticwebassets\\css\\Elaqe.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\Haqqimizda.css",
+      "PackagePath": "staticwebassets\\css\\Haqqimizda.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\Hediyyeler.css",
+      "PackagePath": "staticwebassets\\css\\Hediyyeler.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\Login.css",
+      "PackagePath": "staticwebassets\\css\\Login.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\Love.css",
+      "PackagePath": "staticwebassets\\css\\Love.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\Mehsul.css",
+      "PackagePath": "staticwebassets\\css\\Mehsul.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\Melumat.css",
+      "PackagePath": "staticwebassets\\css\\Melumat.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\Sebet.css",
+      "PackagePath": "staticwebassets\\css\\Sebet.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\Sifaris.css",
+      "PackagePath": "staticwebassets\\css\\Sifaris.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\Sign.css",
+      "PackagePath": "staticwebassets\\css\\Sign.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\YeniCategory.css",
+      "PackagePath": "staticwebassets\\css\\YeniCategory.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\YeniMehsul.css",
+      "PackagePath": "staticwebassets\\css\\YeniMehsul.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\YeniUser.css",
+      "PackagePath": "staticwebassets\\css\\YeniUser.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\flowersshoping.css",
+      "PackagePath": "staticwebassets\\css\\flowersshoping.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\css\\pink-flowers-with-leaves-grey-table.jpg",
+      "PackagePath": "staticwebassets\\css\\pink-flowers-with-leaves-grey-table.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\19849-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\19849-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\1yjwdlvd.qzh.jpg",
+      "PackagePath": "staticwebassets\\img\\1yjwdlvd.qzh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\24-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\24-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\2utwxq42.jju.jpg",
+      "PackagePath": "staticwebassets\\img\\2utwxq42.jju.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\2wylaqm5.qqq.jpg",
+      "PackagePath": "staticwebassets\\img\\2wylaqm5.qqq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\4op543kr.0va.jpg",
+      "PackagePath": "staticwebassets\\img\\4op543kr.0va.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\4vvfu4l4.dei.jpg",
+      "PackagePath": "staticwebassets\\img\\4vvfu4l4.dei.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\5ajmu2xv.rb5.jpg",
+      "PackagePath": "staticwebassets\\img\\5ajmu2xv.rb5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\5oyyf55b.hfs.jpg",
+      "PackagePath": "staticwebassets\\img\\5oyyf55b.hfs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\5uygnrl0.01t.jpg",
+      "PackagePath": "staticwebassets\\img\\5uygnrl0.01t.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\Pembe Güllerden Buket Çiçek Dizaynı  _ Çiçek Filosu.mp4",
+      "PackagePath": "staticwebassets\\img\\Pembe Güllerden Buket Çiçek Dizaynı  _ Çiçek Filosu.mp4"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\[fpdl.in]_pink-flowers-bouquet-close-up-color-background_127657-8665_normal.jpg",
+      "PackagePath": "staticwebassets\\img\\[fpdl.in]_pink-flowers-bouquet-close-up-color-background_127657-8665_normal.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\a1ue3f2e.l23.jpg",
+      "PackagePath": "staticwebassets\\img\\a1ue3f2e.l23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\a3gumek2.ypk.jpg",
+      "PackagePath": "staticwebassets\\img\\a3gumek2.ypk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\aaingmfl.q40.jpg",
+      "PackagePath": "staticwebassets\\img\\aaingmfl.q40.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\al3vwatr.0bk.jpg",
+      "PackagePath": "staticwebassets\\img\\al3vwatr.0bk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\bc2.jpg",
+      "PackagePath": "staticwebassets\\img\\bc2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\bc3..jpg",
+      "PackagePath": "staticwebassets\\img\\bc3..jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\box.png",
+      "PackagePath": "staticwebassets\\img\\box.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\category.png",
+      "PackagePath": "staticwebassets\\img\\category.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\cgsgj2br.cv4.jpg",
+      "PackagePath": "staticwebassets\\img\\cgsgj2br.cv4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\cs21wvtv.xnl.jpg",
+      "PackagePath": "staticwebassets\\img\\cs21wvtv.xnl.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\d1muokr5.ptc.jpg",
+      "PackagePath": "staticwebassets\\img\\d1muokr5.ptc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\drpcfd5d.pxk.jpg",
+      "PackagePath": "staticwebassets\\img\\drpcfd5d.pxk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\dtm0ltxa.wmm.jpg",
+      "PackagePath": "staticwebassets\\img\\dtm0ltxa.wmm.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\eq4gmorr.bst.jpg",
+      "PackagePath": "staticwebassets\\img\\eq4gmorr.bst.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\fcaaib23.jo5.jpg",
+      "PackagePath": "staticwebassets\\img\\fcaaib23.jo5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\g9-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\g9-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\gg2.jpeg",
+      "PackagePath": "staticwebassets\\img\\gg2.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\gxgyleck.tb0.jpg",
+      "PackagePath": "staticwebassets\\img\\gxgyleck.tb0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\h1.jpg",
+      "PackagePath": "staticwebassets\\img\\h1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\h2.jpg",
+      "PackagePath": "staticwebassets\\img\\h2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\h3.jpg",
+      "PackagePath": "staticwebassets\\img\\h3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\h4.jpg",
+      "PackagePath": "staticwebassets\\img\\h4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\h4rj30e1.vu2.jpg",
+      "PackagePath": "staticwebassets\\img\\h4rj30e1.vu2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\haqda1.jpg",
+      "PackagePath": "staticwebassets\\img\\haqda1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\hs0kx2fq.fuc.jpg",
+      "PackagePath": "staticwebassets\\img\\hs0kx2fq.fuc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\ia41mnsf.nh5.jpg",
+      "PackagePath": "staticwebassets\\img\\ia41mnsf.nh5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\iga3iect.x0p.jpg",
+      "PackagePath": "staticwebassets\\img\\iga3iect.x0p.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\ihvm12h2.1uk.jpg",
+      "PackagePath": "staticwebassets\\img\\ihvm12h2.1uk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\img-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\img-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\iow1lapw.z1l.jpg",
+      "PackagePath": "staticwebassets\\img\\iow1lapw.z1l.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\login1.jpg",
+      "PackagePath": "staticwebassets\\img\\login1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\login11.jpg",
+      "PackagePath": "staticwebassets\\img\\login11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\login5.jpg",
+      "PackagePath": "staticwebassets\\img\\login5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\login9.jpg",
+      "PackagePath": "staticwebassets\\img\\login9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\logo-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\logo-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\m0bcshfd.rtf.jpg",
+      "PackagePath": "staticwebassets\\img\\m0bcshfd.rtf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\masin-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\masin-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mhcymsda.mli.jpg",
+      "PackagePath": "staticwebassets\\img\\mhcymsda.mli.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\money-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\money-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc1.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc10.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc11.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc12.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc13.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc14.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc15.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc16.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc17.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc18.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc19.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc2.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc20.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc21.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc22.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc23.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc24.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc25.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc26.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc27.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc28.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc28.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc3.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc4.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc5.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc6.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc7.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc8.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvc9.jpg",
+      "PackagePath": "staticwebassets\\img\\mvc9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mvsk4nce.1gy.jpg",
+      "PackagePath": "staticwebassets\\img\\mvsk4nce.1gy.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\mzaftusi.5nh.jpg",
+      "PackagePath": "staticwebassets\\img\\mzaftusi.5nh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\nijeaaqp.ju5.jpg",
+      "PackagePath": "staticwebassets\\img\\nijeaaqp.ju5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\oggrhyed.ul4.jpg",
+      "PackagePath": "staticwebassets\\img\\oggrhyed.ul4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\options-lines.png",
+      "PackagePath": "staticwebassets\\img\\options-lines.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\order-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\order-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\oyuncaq1.jpg",
+      "PackagePath": "staticwebassets\\img\\oyuncaq1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\oyuncaq2.jpg",
+      "PackagePath": "staticwebassets\\img\\oyuncaq2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\oyuncaq3.jpg",
+      "PackagePath": "staticwebassets\\img\\oyuncaq3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\oyuncaq4.jpg",
+      "PackagePath": "staticwebassets\\img\\oyuncaq4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\oyuncaq5.jpg",
+      "PackagePath": "staticwebassets\\img\\oyuncaq5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pin3.jpg",
+      "PackagePath": "staticwebassets\\img\\pin3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pin4.jpg",
+      "PackagePath": "staticwebassets\\img\\pin4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pin5.jpg",
+      "PackagePath": "staticwebassets\\img\\pin5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pin6.jpg",
+      "PackagePath": "staticwebassets\\img\\pin6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pin7.jpg",
+      "PackagePath": "staticwebassets\\img\\pin7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pin8.jpg",
+      "PackagePath": "staticwebassets\\img\\pin8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pin9.jpg",
+      "PackagePath": "staticwebassets\\img\\pin9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pink-flowers-with-leaves-grey-table.jpg",
+      "PackagePath": "staticwebassets\\img\\pink-flowers-with-leaves-grey-table.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pn1.jpg",
+      "PackagePath": "staticwebassets\\img\\pn1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pn2.jpg",
+      "PackagePath": "staticwebassets\\img\\pn2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pn3.jpg",
+      "PackagePath": "staticwebassets\\img\\pn3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pn4.jpg",
+      "PackagePath": "staticwebassets\\img\\pn4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pn5.jpg",
+      "PackagePath": "staticwebassets\\img\\pn5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pn6.jpg",
+      "PackagePath": "staticwebassets\\img\\pn6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pn7.jpg",
+      "PackagePath": "staticwebassets\\img\\pn7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pn8.jpg",
+      "PackagePath": "staticwebassets\\img\\pn8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\pn9.jpg",
+      "PackagePath": "staticwebassets\\img\\pn9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\prnz5i5u.x3d.jpg",
+      "PackagePath": "staticwebassets\\img\\prnz5i5u.x3d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\qntwiihe.ann.jpg",
+      "PackagePath": "staticwebassets\\img\\qntwiihe.ann.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\quq5phz3.m43.jpg",
+      "PackagePath": "staticwebassets\\img\\quq5phz3.m43.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\r0bvbgtf.01n.jpg",
+      "PackagePath": "staticwebassets\\img\\r0bvbgtf.01n.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\rnbyc35x.gk0.jpg",
+      "PackagePath": "staticwebassets\\img\\rnbyc35x.gk0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\rnf40ck0.qeb.jpg",
+      "PackagePath": "staticwebassets\\img\\rnf40ck0.qeb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\rw0u1owq.0t5.jpg",
+      "PackagePath": "staticwebassets\\img\\rw0u1owq.0t5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\sar1.jpg",
+      "PackagePath": "staticwebassets\\img\\sar1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\sar2.jpg",
+      "PackagePath": "staticwebassets\\img\\sar2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\sd15gvp4.ttq.jpg",
+      "PackagePath": "staticwebassets\\img\\sd15gvp4.ttq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\side-view-bouquet-colorful-roses-pink-color-alstroemeria-flowers-gift-box-black-table_141793-8599.jpg",
+      "PackagePath": "staticwebassets\\img\\side-view-bouquet-colorful-roses-pink-color-alstroemeria-flowers-gift-box-black-table_141793-8599.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\slide.png",
+      "PackagePath": "staticwebassets\\img\\slide.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\slide1.jpg",
+      "PackagePath": "staticwebassets\\img\\slide1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\slide10.jpg",
+      "PackagePath": "staticwebassets\\img\\slide10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\slide2.jpg",
+      "PackagePath": "staticwebassets\\img\\slide2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\slide3.jpg",
+      "PackagePath": "staticwebassets\\img\\slide3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\slide5.jpg",
+      "PackagePath": "staticwebassets\\img\\slide5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\sokolod1.jpg",
+      "PackagePath": "staticwebassets\\img\\sokolod1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\sokolod2.jpg",
+      "PackagePath": "staticwebassets\\img\\sokolod2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\sokolod3.jpg",
+      "PackagePath": "staticwebassets\\img\\sokolod3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\sokolod4.jpg",
+      "PackagePath": "staticwebassets\\img\\sokolod4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\sokolod5.jpg",
+      "PackagePath": "staticwebassets\\img\\sokolod5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\szgmxoj0.l3f.jpg",
+      "PackagePath": "staticwebassets\\img\\szgmxoj0.l3f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\t1py0ovd.5es.jpg",
+      "PackagePath": "staticwebassets\\img\\t1py0ovd.5es.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\taniscwf.xus.jpg",
+      "PackagePath": "staticwebassets\\img\\taniscwf.xus.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\tbjkxegh.p0y.jpg",
+      "PackagePath": "staticwebassets\\img\\tbjkxegh.p0y.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\top-view-yellow-flowers-with-wooden-background-removebg-preview.png",
+      "PackagePath": "staticwebassets\\img\\top-view-yellow-flowers-with-wooden-background-removebg-preview.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\ubxvle0i.qx3.jpg",
+      "PackagePath": "staticwebassets\\img\\ubxvle0i.qx3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\user.png",
+      "PackagePath": "staticwebassets\\img\\user.png"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\ver0v2ke.rvf.jpg",
+      "PackagePath": "staticwebassets\\img\\ver0v2ke.rvf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\vguaui3r.g2k.jpg",
+      "PackagePath": "staticwebassets\\img\\vguaui3r.g2k.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\vioxua3j.upk.jpg",
+      "PackagePath": "staticwebassets\\img\\vioxua3j.upk.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\w312xou3.g5a.jpg",
+      "PackagePath": "staticwebassets\\img\\w312xou3.g5a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\wedding-bouquet-different-flowers_135427-4517.jpg",
+      "PackagePath": "staticwebassets\\img\\wedding-bouquet-different-flowers_135427-4517.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\wraka2qu.0ho.jpg",
+      "PackagePath": "staticwebassets\\img\\wraka2qu.0ho.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\wrfhirsn.uzs.jpg",
+      "PackagePath": "staticwebassets\\img\\wrfhirsn.uzs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\wxvmb5su.oz1.jpg",
+      "PackagePath": "staticwebassets\\img\\wxvmb5su.oz1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\xct3200t.035.jpg",
+      "PackagePath": "staticwebassets\\img\\xct3200t.035.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\xmg3u43x.jto.jpg",
+      "PackagePath": "staticwebassets\\img\\xmg3u43x.jto.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\y2krgsgp.eon.jpg",
+      "PackagePath": "staticwebassets\\img\\y2krgsgp.eon.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\y5eibvbl.vz0.jpg",
+      "PackagePath": "staticwebassets\\img\\y5eibvbl.vz0.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\yemeli1.jpg",
+      "PackagePath": "staticwebassets\\img\\yemeli1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\yemeli2.jpg",
+      "PackagePath": "staticwebassets\\img\\yemeli2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\yemeli3.jpg",
+      "PackagePath": "staticwebassets\\img\\yemeli3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\zg4qiqm4.04y.jpg",
+      "PackagePath": "staticwebassets\\img\\zg4qiqm4.04y.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\zq3w0pk2.bce.jpg",
+      "PackagePath": "staticwebassets\\img\\zq3w0pk2.bce.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\zwd52viz.3vq.jpg",
+      "PackagePath": "staticwebassets\\img\\zwd52viz.3vq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\img\\zxbcajpf.1wz.jpg",
+      "PackagePath": "staticwebassets\\img\\zxbcajpf.1wz.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\js\\AdminPanel.js",
+      "PackagePath": "staticwebassets\\js\\AdminPanel.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\js\\Elaqe.js",
+      "PackagePath": "staticwebassets\\js\\Elaqe.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\js\\Haqqimizda.js",
+      "PackagePath": "staticwebassets\\js\\Haqqimizda.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\js\\Hediyyeler.js",
+      "PackagePath": "staticwebassets\\js\\Hediyyeler.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\js\\Login.js",
+      "PackagePath": "staticwebassets\\js\\Login.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\js\\Mehsul.js",
+      "PackagePath": "staticwebassets\\js\\Mehsul.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\js\\Melumat.js",
+      "PackagePath": "staticwebassets\\js\\Melumat.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\js\\Sifaris.js",
+      "PackagePath": "staticwebassets\\js\\Sifaris.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\js\\YeniMehsul.js",
+      "PackagePath": "staticwebassets\\js\\YeniMehsul.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\js\\flowersshoping.js",
+      "PackagePath": "staticwebassets\\js\\flowersshoping.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\js\\sign.js",
+      "PackagePath": "staticwebassets\\js\\sign.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ACER\\source\\repos\\WebApplication20\\WebApplication20\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WebApplication20.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WebApplication20.props",
+      "PackagePath": "build\\WebApplication20.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication20.props",
+      "PackagePath": "buildMultiTargeting\\WebApplication20.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WebApplication20.props",
+      "PackagePath": "buildTransitive\\WebApplication20.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

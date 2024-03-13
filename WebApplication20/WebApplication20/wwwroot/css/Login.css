@@ -1,0 +1,575 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Vesper+Libre:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+body {
+    background-color: #ebebc0;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+}
+
+body input {
+    outline-style: none;
+}
+body a{
+    text-decoration:none;
+}
+
+.orta {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+}
+
+.yazi {
+    width: 60%;
+    margin: auto;
+    background-image: url(./photo/19849-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.orta1 {
+    width: 50%;
+    height: 530.6px;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-top: 65px;
+    background-color: hwb(0deg 98.41% 1.59%);
+}
+
+    .yazi h1 {
+        font-family: 'Pacifico',sans-serif;
+        font-weight: 100;
+    cursor:pointer;
+    }
+.yazi h1::before {
+    width: 120px;
+    position: absolute;
+    content: "";
+    left:20%;
+    opacity: .7;
+    top: 17.2%;
+    height: 4px;
+    background-color: #e09200;
+    z-index: 1;
+    transition: 1s;
+}
+
+    .yazi:hover h1::before {
+        transform: scaleX(1.5);
+    }
+
+    .orta1 p {
+        font-family: 'Poppins',sans-serif;
+        font-weight: 800;
+        font-size: 15px;
+    }
+
+a{
+    margin-top: 0px;
+}
+
+.orta1 input {
+    padding: 7px 80px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #e09200;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 800;
+    background-color: #fff;
+    display: block;
+    margin-top: 36px;
+    box-shadow: 0px 0px 3px silver;
+    border-radius: 10px;
+}
+
+    .orta1 input:focus ~ label {
+        top: -10px !important;
+        transition: .5s;
+    }
+
+.orta1 .span1 {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+    right: 30%;
+    top: 53%;
+}
+
+.orta1 button {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    color: white;
+    background-color: #e09200;
+    border: 1px solid #e09200;
+    padding: 8px 9px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-family:'Poppins',sans-serif;
+    font-weight:900;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0px 0px 5px #e09200;
+}
+
+    .orta1 button:hover {
+        color: #e09200;
+        background-color: white;
+        border: 1px solid #e09200;
+    }
+
+.p2 {
+    font-size: 13px;
+    padding-top: 8px;
+}
+
+.span2 {
+    font-weight: 1200;
+    cursor: pointer;
+    color: #8f4000;
+}
+
+.up {
+    width: 50%;
+    height: 0px;
+    opacity: 0;
+    overflow: hidden;
+    text-align: center;
+    background-color: hwb(0deg 98.41% 1.59%);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1000;
+    transition: 1s;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+}
+.up h1{
+    padding-bottom:10px;
+}
+.up h1::before {
+    width: 149px;
+    position: absolute;
+    content: "";
+    left: 38%;
+    opacity: .7;
+    top: 25.2%;
+    height: 4px;
+    background-color: #e09200;
+    z-index: 1;
+    transition: 1s;
+}
+
+.aktiv {
+    opacity: 1;
+    height: 530.5px;
+    z-index: 1000 !important;
+    padding-top:65px;
+}
+
+.orta1-aktiv {
+    height: 0;
+    overflow: hidden;
+}
+
+.up h1 {
+    font-family: 'Pacifico',sans-serif;
+    font-weight: 100;
+}
+
+.iki {
+    display: flex;
+}
+
+    .iki input {
+        padding: 7px 40px;
+        margin: auto;
+        text-align: center;
+        border: 1px solid #e09200;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-weight: 800;
+        background-color: #fff;
+        display: block;
+        margin-top: 36px;
+        box-shadow: 0px 0px 3px silver;
+        border-radius: 16px;
+    }
+
+.d1 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 4%;
+    top: 27.8%;
+    font-size: 17px;
+}
+
+.d2 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    position: absolute;
+    right: 37.4%;
+    top: 27.8%;
+    font-size: 17px;
+}
+
+.uc {
+    width: 100%;
+    display: flex;
+}
+
+.d3 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 3%;
+    top: 40.2%;
+    font-size: 17px;
+}
+
+.uc .inpt2 {
+    padding: 7px 40px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #e09200;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 800;
+    background-color: #fff;
+    display: block;
+    margin-top: 36px;
+    box-shadow: 0px 0px 3px silver;
+    border-radius: 16px;
+}
+
+.uc .giris {
+    width: 41%;
+}
+
+.uc .mobil {
+    margin-right: 0px;
+}
+
+.mobil input {
+    margin-top: 32px;
+}
+
+.uc .email {
+    margin-right: 80px;
+}
+
+.email input {
+    margin-top: 32px;
+}
+
+.uc .select {
+    display: flex;
+    position: absolute;
+    left: 8%;
+    top: 47%;
+}
+
+    .uc .select img {
+        width: 33%;
+        height: 22px;
+        padding-top: 10.6px;
+    }
+
+    .uc .select select {
+        border: none;
+        box-shadow: none;
+        outline: none;
+        color: #242424;
+        cursor: pointer;
+        font-size: 18px;
+        margin-top: 10px;
+        background-color: #fff;
+    }
+
+.dord {
+    width: 100%;
+    display: flex;
+}
+
+.d4 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 3%;
+    top: 52.2%;
+    font-size: 17px;
+}
+
+.dord input {
+    padding: 7px 62px;
+    border: 1px solid #e09200;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 800;
+    background-color: #fff;
+    display: block;
+    margin-top: 36px;
+    box-shadow: 0px 0px 3px silver;
+    border-radius: 16px;
+    margin-left: 26px;
+}
+
+.dord .giris {
+    width: 41%;
+}
+
+.dord .mobil {
+    margin-right: 30px;
+}
+
+.mobil input {
+    margin-top: 32px;
+}
+
+.dord .email {
+    margin-right: 100px;
+}
+
+.email input {
+    margin-top: 32px;
+}
+
+.bes {
+    width: 100%;
+    display: flex;
+}
+
+.d5 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 3%;
+    bottom: 26%;
+    font-size: 17px;
+}
+
+.d6 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    position: absolute;
+    right: 28.5%;
+    bottom: 26%;
+    font-size: 17px;
+}
+
+.bes input {
+    padding: 7px 40px;
+    margin: auto;
+    border: 1px solid #e09200;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 800;
+    background-color: #fff;
+    display: block;
+    margin-top: 36px;
+    box-shadow: 0px 0px 3px silver;
+    border-radius: 16px;
+}
+
+.up button {
+    margin-top: 25px;
+    padding: 10px 15px;
+    background-color: #e09200;
+    border: 1px solid #e09200;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 0px 8px #e09200;
+    cursor: pointer;
+}
+
+    .up button:hover {
+        background-color: white;
+        color: #e09200;
+    }
+
+.span2 {
+    font-weight: 1200;
+    cursor: pointer;
+}
+
+.orta2 {
+    width: 50%;
+}
+
+.swiper {
+    height: 69.2%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 1;
+    }
+
+/* .swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+} */
+
+.giris {
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mobil {
+    width: 100%;
+    display: flex;
+    margin-right: 40px;
+}
+
+    .mobil label {
+        padding-top: 24px;
+        padding-left: 5px;
+        font-size: 17px;
+        font-family: "Poppins", sans-serif;
+        font-weight:900;
+    }
+
+.email {
+    width: 20%;
+    display: flex;
+    margin-left: 0px;
+}
+
+    .email label {
+        padding-top: 24px;
+        padding-left: 5px;
+        font-size: 17px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+    }
+
+.inpt .mobil {
+    font-family:'Poppins',sans-serif;
+    font-weight:900;
+    width:61%;
+    height:0px;
+    margin:auto;
+    font-size: 16px;
+}
+
+.inpt .parol {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 900;
+    font-size: 16px;
+    width: 44%;
+    height: 0px;
+}
+.inpt .emaill {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 900;
+    width: 46%;
+    height: 0px;
+    font-size: 16px;
+}
+.select {
+    display: flex;
+    position: absolute;
+    left: 12%;
+    top: 30%;
+}
+
+    .select img {
+        width: 33%;
+        height: 22px;
+    }
+
+    .select select {
+        border: none;
+        box-shadow: none;
+        outline: none;
+        color: #242424;
+        cursor: pointer;
+        font-size: 18px;
+        margin-bottom: 5px;
+        background-color: #fff;
+    }
+    .umumi53{
+        display:none;
+    }
+@media(max-width:768px) {
+    .orta2 {
+        display: none;
+    }
+
+    .orta {
+        width: 98%;
+    }
+
+    .orta1 {
+        width: 100%;
+        border-radius: 30px;
+        height: 430px;
+        margin-top: 90px;
+        padding-top:5px;
+    }
+
+    .yazi h1::before {
+        left: 33.4%;
+        top: 33.1%;
+    }
+
+    .giris {
+        margin-left: 119px;
+    }
+
+    .orta1 input {
+        padding: 7px 73px;
+    }
+    .inpt .mobil {
+        width: 79%;
+        margin: 10px auto;
+    }
+    .inpt .parol {
+        width: 31%;
+    }
+    .select{
+        top:57%;
+    }
+    .orta1 button {
+        margin: auto;
+        margin-top: 20px;
+        padding: 8px 46px;
+        font-size: 16px;
+    }
+    .p2{
+        padding-top:0px;
+    }
+    .orta1 .span1{
+        display:none;
+    }
+}

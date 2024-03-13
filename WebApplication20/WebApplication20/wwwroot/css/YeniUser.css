@@ -1,0 +1,255 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Vesper+Libre:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Pacifico&family=Vesper+Libre:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: #f8f8f8; */
+    background-color: #e7e7fd;
+}
+
+    body input {
+        outline-style: none;
+    }
+
+    body a {
+        text-decoration: none;
+    }
+
+.iki {
+    width: 100%;
+    height: 95vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    padding: 0px 20px;
+}
+
+
+.uc {
+    width: 27%;
+    height: 620px;
+    background-color: #2e2e2e;
+    margin-left: 0px;
+    margin-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #fff !important;
+    border-radius: 10px;
+}
+
+    .uc img {
+        width: 33%;
+        height: 90px;
+        border-radius: 50%;
+        margin-left: 90px
+    }
+
+    .uc h1 {
+        font-family: 'Poppins',sans-serif;
+        font-weight: 900;
+        margin-top: 10px;
+        font-size: 19px;
+        padding-left: 54px;
+        color: white;
+    }
+
+    .uc .e1 {
+        font-family: 'Poppins',sans-serif;
+        font-weight: 900;
+        font-size: 13px;
+        padding-top: 4px;
+        padding-left: 53px;
+        color: white;
+    }
+
+.umumi50 {
+    width: 60%;
+    margin: auto;
+    margin-top: 28px;
+}
+
+.umumi51 {
+    text-align: center;
+    margin-top: 10px;
+}
+
+    .umumi51 h2 {
+        display: flex;
+        font-family: 'Poppins',sans-serif;
+        font-weight: 900;
+        font-size: 16px;
+        color: white;
+        transition: 1s;
+        cursor: pointer;
+    }
+
+.cixis {
+    padding: 8px 45px;
+    display: flex;
+    margin-top: 160px;
+    background-color: white;
+    color: #2e2e2e;
+    font-family: 'Outfit',sans-serif;
+    font-size: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 0px 5px white;
+}
+
+    .cixis i {
+        padding-top: 4px;
+        padding-right: 5px;
+    }
+.dord {
+    width: 100%;
+    height: 620px;
+    background-color: #fff;
+    margin-left: 10px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.input {
+    position: absolute;
+    right: 4%;
+    top: 2%;
+}
+
+    .input input {
+        width: 86%;
+        height: 29px;
+        border-radius: 15px;
+        border: 1px solid #2e2e2e;
+        text-align: center;
+        margin-right: 5px;
+    }
+
+    .input i {
+        padding: 5px 5px;
+        background-color: #2e2e2e;
+        color: #fff;
+        border-radius: 5px;
+        position: absolute;
+        right: -5%;
+    }
+
+table {
+    width: 100%;
+    margin-top: 20px;
+    border: none;
+    border-color: #e7e7fd;
+}
+
+    table th {
+        background-color: #2e2e2e;
+        border-radius: 3px;
+        color: white;
+        font-size: 14px;
+        padding: 0px 40px;
+        font-family: 'Poppins',sans-serif;
+        padding-left: 7px;
+        font-weight: 400;
+    }
+
+    table img {
+        width: 95%;
+        height: 63px;
+    }
+
+    table tr td {
+        width: 4%;
+        padding: 3px 10px;
+        border-spacing: 0px !important;
+        padding-left: 20px;
+        font-weight:900;
+        margin-top:10px;
+        font-size:15px;
+        font-family: 'Poppins',sans-serif;
+    }
+    table tbody tr:nth-child(odd) {
+        background-color:#b0b1b1;
+    }
+
+    table thead th {
+        text-align: start !important;
+    }
+
+.del {
+    display: flex;
+}
+
+.delete {
+    padding: 2px 5px;
+    background-color: #ef3838;
+    color: white;
+    border-radius: 2px;
+    margin-left: 12px;
+}
+
+    .delete a {
+        color: white;
+    }
+
+.edit {
+    background-color: #414156;
+    color: white;
+    border-radius: 2px;
+    padding: 2px 5px;
+}
+
+    .edit a {
+        color: white;
+    }
+
+.yumru {
+    width: 53%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #414156;
+    padding-top: 2px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.yumru1 {
+    width: 30%;
+    margin-left: 10px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+}
+
+.scroll-table {
+    height: 540px;
+    overflow-y: scroll;
+}
+
+.yeni {
+    width: 12%;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 20px;
+    border-radius: 3px;
+    background-color: #2e2e2e;
+    color: white;
+    font-family: 'Poppins',sans-serif;
+    padding-top: 5px;
+    font-weight: 900;
+    padding-left: 18px;
+    box-shadow: 0px 0px 5px #414156;
+}
+
+    .yeni a {
+        color: white;
+    }

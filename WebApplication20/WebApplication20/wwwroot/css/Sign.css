@@ -1,0 +1,497 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Vesper+Libre:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+body {
+    background-color: #ebebc0;
+    overflow: hidden;
+}
+
+header {
+    width: 100%;
+}
+
+body input {
+    outline-style: none;
+}
+
+body a {
+    text-decoration: none;
+}
+
+.orta {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+}
+
+.yazi {
+    width: 60%;
+    margin: auto;
+    background-image: url(./photo/19849-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.orta1 {
+    width: 50%;
+    height: 530.6px;
+    text-align: center;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-top: 65px;
+    background-color: hwb(0deg 98.41% 1.59%);
+}
+
+.yazi h1 {
+    font-family: 'Pacifico',sans-serif;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+    .yazi h1::before {
+        width: 120px;
+        position: absolute;
+        content: "";
+        left: 20%;
+        opacity: .7;
+        top: 17.2%;
+        height: 4px;
+        background-color: #e09200;
+        z-index: 1;
+        transition: 1s;
+    }
+
+.yazi:hover h1::before {
+    transform: scaleX(1.5);
+}
+
+.orta1 p {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+.inpt {
+    margin-top: 0px;
+}
+
+.orta1 input {
+    padding: 7px 80px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #e09200;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 800;
+    background-color: #fff;
+    display: block;
+    margin-top: 36px;
+    box-shadow: 0px 0px 3px silver;
+    border-radius: 10px;
+}
+
+    .orta1 input:focus ~ label {
+        top: -10px !important;
+        transition: .5s;
+    }
+
+.orta1 .span1 {
+    position: absolute;
+    font-size: 14px;
+    font-family: 'Outfit', sans-serif;
+    right: 30%;
+    top: 53%;
+}
+
+.orta1 button {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    color: white;
+    background-color: #e09200;
+    border: 1px solid #e09200;
+    padding: 8px 9px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 16px;
+    box-shadow: 0px 0px 5px #e09200;
+}
+
+    .orta1 button:hover {
+        color: #e09200;
+        background-color: white;
+        border: 1px solid #e09200;
+    }
+
+.p2 {
+    font-size: 13px;
+    padding-top: 8px;
+}
+
+.span2 {
+    font-weight: 1200;
+    cursor: pointer;
+    color: #8f4000;
+}
+
+.up {
+    width: 50%;
+    height: 571.3px;
+    text-align: center;
+    background-color: hwb(0deg 98.41% 1.59%);
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    padding-top:25px;
+}
+
+        .up h1::before {
+            width: 152px;
+            position: absolute;
+            content: "";
+            left: 18.5%;
+            opacity: .7;
+            top: 12.2%;
+            height: 4px;
+            background-color: #e09200;
+            z-index: 1;
+            transition: 1s;
+        }
+
+.aktiv {
+    opacity: 1;
+    height: 530.5px;
+    z-index: 1000 !important;
+    padding-top: 65px;
+}
+
+.orta1-aktiv {
+    height: 0;
+    overflow: hidden;
+}
+
+.up h1 {
+    font-family: 'Pacifico',sans-serif;
+    font-weight: 100;
+}
+
+
+    .up input {
+        padding: 7px 40px;
+        margin: auto;
+        text-align: center;
+        border: 1px solid #e09200;
+        font-family: 'Poppins', sans-serif;
+        color: black;
+        font-weight: 800;
+        background-color: #fff;
+        display: block;
+        margin-top: 36px;
+        box-shadow: 0px 0px 3px silver;
+        border-radius: 16px;
+    }
+    .input100{
+        position:relative;
+    }
+        .input100 label {
+            position: absolute;
+            left: 21%;
+            top: -69%;
+            z-index: 1000000;
+            font-family: 'Poppins', sans-serif;
+            font-weight:900;
+        }
+.input101 .input100 .d1 {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    position:absolute;
+    left:20%;
+    bottom:50%;
+    z-index:100;
+    font-size: 17px;
+}
+
+.up .input101 input {
+    padding: 8px 63px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid #e09200;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 800;
+    background-color: #fff;
+    display: block;
+    margin-top: 53px;
+    box-shadow: 0px 0px 3px silver;
+    border-radius: 16px;
+}
+
+.input101 {
+    margin-left: 30px;
+    position: relative;
+}
+
+    .input101 .d1 {
+        font-family: "Roboto", sans-serif;
+        font-style: italic;
+        position: absolute;
+        left: -3%;
+        top: -5%;
+        z-index: 100;
+        font-size: 17px;
+    }
+
+.mobil input {
+    margin-top: 32px;
+}
+
+.uc .email {
+    margin-right: 80px;
+}
+
+.email input {
+    margin-top: 32px;
+}
+
+.uc .select {
+    display: flex;
+    position: absolute;
+    left: 8%;
+    top: 47%;
+}
+
+    .iki .select img {
+        width: 33%;
+        height: 22px;
+        padding-top: 22px;
+    }
+
+    .iki .select select {
+        border: none;
+        box-shadow: none;
+        outline: none;
+        color: #242424;
+        cursor: pointer;
+        font-size: 18px;
+        margin-top: 22px;
+        background-color: #fff;
+    }
+
+.up button {
+    margin-top: 40px;
+    padding: 10px 15px;
+    background-color: #e09200;
+    border: 1px solid #e09200;
+    font-family: 'Outfit', sans-serif;
+    font-size: 16px;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0px 0px 8px #e09200;
+    cursor: pointer;
+}
+    .up button:hover {
+        background-color: white;
+        color: #e09200;
+    }
+
+.span2 {
+    font-weight: 1200;
+    cursor: pointer;
+}
+
+.orta2 {
+    width: 50%;
+}
+
+.swiper {
+    height: 69.2%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 1;
+    }
+
+/* .swiper-slide:nth-child(1n) {
+  background-color: rgb(206, 17, 17);
+} */
+
+.giris {
+    width: 21%;
+    height:10px;
+    display: flex;
+    margin:auto;
+    justify-content: space-around;
+    align-items: center;
+    padding-right:34px;
+}
+.giriss {
+    width: 21%;
+    height: 10px;
+    margin: auto;
+    padding-right: 34px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.mobil {
+    width: 100%;
+    display: flex;
+    margin-right: 40px;
+}
+
+    .mobil label {
+        padding-top: 45px;
+        padding-left: 5px;
+        font-size: 17px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+    }
+
+.email {
+    width: 20%;
+    display: flex;
+    margin-left: 0px;
+}
+
+    .email label {
+        padding-top: 45px;
+        padding-left: 5px;
+        font-size: 17px;
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+    }
+
+.inpt .mobil {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 12%;
+    top: 24.8%;
+    font-size: 16px;
+}
+
+.inpt .parol {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 12%;
+    top: 33.4%;
+    font-size: 16px;
+}
+
+.inpt .emaill {
+    font-family: "Roboto", sans-serif;
+    font-style: italic;
+    position: absolute;
+    left: 12%;
+    top: 41.6%;
+    font-size: 16px;
+}
+
+.select {
+    display: flex;
+    position: absolute;
+    left: 26%;
+    bottom: 6%;
+}
+
+    .select img {
+        width: 33%;
+        height: 22px;
+    }
+
+    .select select {
+        border: none;
+        box-shadow: none;
+        outline: none;
+        color: #242424;
+        cursor: pointer;
+        font-size: 18px;
+        margin-bottom: 5px;
+        background-color: #fff;
+    }
+.upimg {
+    height: 142px;
+    width: 21%;
+    position: absolute;
+    left: -7%;
+    top: 0%;
+}
+.mobil select {
+    margin-left: 42px;
+    padding: 7px 0px;
+    border: 1px solid #fff;
+    margin-top: 46px;
+    font-family: 'Poppins',sans-serif;
+    background-color: #fff;
+    color: #000;
+    font-weight:900;
+    font-size:22px;
+    cursor: pointer;
+}
+@media(max-width:768px) {
+    .orta2 {
+        display: none;
+    }
+
+    .orta {
+        width: 99%;
+    }
+
+    .up {
+        width: 100%;
+        border-radius: 30px;
+        height: 460px;
+        margin-top: 60px;
+        padding-top: 5px;
+    }
+
+    .yazi h1::before {
+        left: 30.4%;
+        top: 28.1%;
+    }
+    .input101{
+        margin-left:0px;
+    }
+    .input100 label {
+        left: 14%;
+        top: -69%;
+    }
+    .up .input101 input {
+        margin-top: 36px;
+    }
+    .input100 .error {
+        font-family:'Poppins',sans-serif;
+        text-align:left;
+        margin-top:5px;
+    }
+
+    .select {
+        top: 28%;
+        left: 15%;
+    }
+    .up button{
+        margin-top:26px;
+    }
+}

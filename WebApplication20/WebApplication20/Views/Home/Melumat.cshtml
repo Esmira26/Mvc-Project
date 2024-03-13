@@ -1,0 +1,151 @@
+﻿@model Mehsul
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Russo+One&family=Send+Flowers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/Melumat.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="yumru">
+        <ul>
+            <li><a href="" target="_blank"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a></li>
+        </ul>
+        <i class="fa-regular fa-comment-dots"></i>
+    </div>
+    <nav>
+        <a href="/Home/Index"><h1>Kharı Bulbul</h1><img src="/img/g9-removebg-preview.png"></a>
+        <ul>
+            <a href="Home/Index">
+            <li>Əsas səhifə</li></a>
+            <a href="#orta6">
+            <li>Məhsullar</li></a>
+            <a href="/Home/Hediyyeler">
+            <li>Hədiyyələr</li></a>
+            <a href="/Home/Elaqe">
+            <li>Bizimlə əlaqə</li></a>
+        </ul>
+        @if (User.Identity.IsAuthenticated)
+        {
+            <div class="icon">
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="/Home/Love"><i class="fa-solid fa-heart"></i></a>
+                <a href="/Home/Sebet"><i class="fa-solid fa-cart-shopping"></i></a>
+                <a href="/User/Cixis"><i class="fa-solid fa-right-to-bracket"></i></a>
+            </div>
+        }
+        else
+        {
+            <div class="icon">
+                <a href=""><i class="fa-solid fa-magnifying-glass"></i></a>
+                <a href="/User/Login"><i class="fa-solid fa-user"></i></a>
+                <a href="/User/Login"><i class="fa-solid fa-heart"></i></a>
+                <a href="/User/Login"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        }
+    </nav>
+
+    <header>
+        <div class="too">
+            <div class="gul">
+                <img src="/img/@Model.Photos.ToList()[0].PhotoUrl" alt="" srcset="">
+                <div class="love">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+                <div class="guller">
+                    @foreach (var item in Model.Photos)
+                    {
+                    <div class="gul1">
+                        <img src="/img/@item.PhotoUrl"/>
+                    </div>                        
+                    }
+                </div>
+            </div>
+            <div class="melumat">
+                <h1>@Model.MehsulAd</h1>
+                <div class="tt">
+                    <div class="star">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="stock">
+                        <i class="fa-regular fa-circle-check"></i>
+                        <p>Anbarda mövcuddur</p>
+                    </div>
+                </div>
+                <div class="terkib">
+                    <h1>Tərkibindəki güllər :</h1>
+                    <p>@Html.Raw(Model.MehsulFlower)</p>
+                </div>
+                <div class="price">
+                    <div class="price1">
+                        <p>Qiymət :</p>
+                        <span class="yellow">@Model.MehsulQiymeti.00₼</span>
+                    </div>
+                    @*<div class="price2">
+                        <p>Miqdar :</p>
+                        <div class="quantity">
+                            <div class="control">
+                                <a href=""><i class="fa-solid fa-caret-down"></i></a>
+                                <input type="text" placeholder="1">
+                                <a href=""><i class="fa-solid fa-caret-up"></i></a>
+                            </div>
+                        </div>
+                    </div>*@
+                    <div class="price1">
+                        <p>Çatdırılma :</p>
+                        <span>50 AZN-dən yuxarı sifarişlərə çatdırılma pulsuzdur.</span>
+                    </div>
+                </div>
+                <div class="btns">
+                    <a href=""><button class="b1"><i class="fa-solid fa-basket-shopping"></i> Səbətə</button></a>
+                    <a href=""><button class="b2"><i class="fa-solid fa-bolt-lightning"></i> İndi al</button></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="footer">
+        <div class="footer1">
+            <h1>Əlaqə</h1>
+            <p>+99450 671 74 23</p>
+            <h3>Çatdırılma 24/7</h3>
+        </div>
+        <div class="footer2">
+            <h1>Bizi Izləyin</h1>
+            <div class="icon1">
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer3">
+            <div class="soz">
+                <h1>© 2021-2023 Kharı Bulbul</h1>
+                <h2>A2Studio tərəfindən yaradılıb</h2>
+            </div>
+            <div class="ahref">
+                <a href="/sifaris.html">Çatdırılma və ödəniş</a>
+                <a href="">Filiallar</a>
+                <a href="">Statuslar</a>
+            </div>
+            <div class="kartlar">
+                <img src="https://agciceyim.az/data/payment_icons/3.png" alt="">
+                <img src="https://agciceyim.az/data/payment_icons/4.png" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="/js/Melumat.js"></script>
+</body>
+</html>

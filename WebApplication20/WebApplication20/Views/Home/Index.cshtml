@@ -1,0 +1,215 @@
+﻿@using System.Security.Claims;
+@model List<Mehsul>
+@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+}
+
+    <header>
+<section class="bar">
+     @if (User.Identity.IsAuthenticated)
+        {
+            if (User.FindFirst(ClaimTypes.NameIdentifier).Value == "Esmira")
+            {
+                <a href="/Home/Index">
+                    <i class="fa-solid fa-house"></i> Əsas səhifə
+                </a>
+                <a href="/Home/Mehsul">
+                    <i class="fa-solid fa-box"></i> Məhsullar
+                </a>
+                <a href="/Home/Hediyyeler">
+                    <i class="fa-solid fa-gift"></i>  Hədiyyələr
+                </a>
+                <a href="/Home/Elaqe">
+                    <i class="fa-solid fa-file-signature"></i>  Bizimlə əlaqə
+                </a>
+                <a href="/Home/Haqqimizda">
+                    <i class="fa-solid fa-address-card"></i> Haqqımızda
+                </a>
+                <a href="/Admin/AdminPanel">
+                    <i class="fa-solid fa-user"></i>@User.FindFirst(ClaimTypes.NameIdentifier).Value
+                </a>
+            }
+            else
+            {
+                <a href="/Home/Index">
+                    <i class="fa-solid fa-house"></i> Əsas səhifə
+                </a>
+                <a href="/Home/Mehsul">
+                    <i class="fa-solid fa-box"></i> Məhsullar
+                </a>
+                <a href="/Home/Hediyyeler">
+                    <i class="fa-solid fa-gift"></i>  Hədiyyələr
+                </a>
+                <a href="/Home/Elaqe">
+                    <i class="fa-solid fa-file-signature"></i>  Bizimlə əlaqə
+                </a>
+                <a href="/Home/Haqqimizda">
+                    <i class="fa-solid fa-address-card"></i> Haqqımızda
+                </a>
+                <a href="">
+                    <i class="fa-solid fa-user"></i> @User.FindFirst(ClaimTypes.NameIdentifier).Value
+                </a>
+            }
+        }
+        else
+        {
+            <a href="/Home/Index">
+                <i class="fa-solid fa-house"></i> Əsas səhifə
+            </a>
+            <a href="/Home/Mehsul">
+                <i class="fa-solid fa-box"></i> Məhsullar
+            </a>
+            <a href="/Home/Hediyyeler">
+                <i class="fa-solid fa-gift"></i>  Hədiyyələr
+            </a>
+            <a href="/Home/Elaqe">
+                <i class="fa-solid fa-file-signature"></i>  Bizimlə əlaqə
+            </a>
+            <a href="/Home/Haqqimizda">
+                <i class="fa-solid fa-address-card"></i> Haqqımızda
+            </a>
+        }
+    </section>
+        <div class="image">
+        <h1>Öz Zövqünə Uyğun Unikal Buket Yarat</h1>
+        <a href="/Home/Mehsul"><button>İndi sifariş edin</button></a>
+        </div>
+    </header>
+    <section class="orta">
+        <div class="orta1">
+            <p>5% Endirim</p>
+            <h1>Yaz çiçəyi</h1>
+            <a href="/Home/Mehsul"><button>Indi sifariş et</button></a>
+        </div>
+        <div class="orta2">
+            <p>10% Endirim</p>
+            <h1>Lalə çiçəyi</h1>
+            <a href="/Home/Mehsul"><button>Indi sifariş et</button></a>
+        </div>
+        <div class="orta3">
+            <p>5% Endirim</p>
+            <h1>Sarı çiçəy</h1>
+            <a href="/Home/Mehsul"><button>Indi sifariş et</button></a>
+        </div>
+    </section>
+    <section class="orta4">
+        <div class="orta5">
+            <img src="/img/masin-removebg-preview.png" alt="">
+            <div class="yazi">
+                <h1>Pulsuz çatdırılma</h1>
+                <p>Bütün sifarişlərə pulsuz çatdırılma</p>
+            </div>
+        </div>
+        <div class="orta5">
+            <img src="/img/24-removebg-preview.png" alt="">
+            <div class="yazi">
+                <h1>24/7 Dəstəyinizdəyik</h1>
+                <p>24 Saat dəstək</p>
+            </div>
+        </div>
+        <div class="orta5">
+            <img src="/img/money-removebg-preview.png" alt="">
+            <div class="yazi">
+                <h1>Pulun qaytarılması</h1>
+                <p>Geri qayıtdıqdan 24 saat sonra</p>
+            </div>
+        </div>
+        <div class="orta5">
+            <img src="/img/order-removebg-preview.png" alt="">
+            <div class="yazi">
+                <h1>Sifariş endirimi</h1>
+                <p>Hər sifarişdə 10% endirim</p>
+            </div>
+        </div>
+    </section>
+    <section id="orta6">
+        <div class="orta66">
+            <h1>Trend məhsullar</h1>
+        </div>
+        <div class="orta8">
+            @foreach (var item in Model)
+            {
+            <div class="orta100">
+                <a href="/Home/Melumat/@item.MehsulId">
+                    <div class="orta7">
+                        <a href="/Home/LoveGet/@item.MehsulId">
+                        <div class="love">
+                            <i class="fa-regular fa-heart"></i>
+                        </div></a>
+                        <h3>Yeni</h3>                
+                        <img src="/img/@item.Photos.ToList()[0].PhotoUrl" alt="">
+                        <div class="orta7-bottom">
+                        <a href="/Home/Melumat/@item.MehsulId">@item.MehsulAd</a>
+                        <span>@item.MehsulQiymeti.00₼</span>
+                        <form asp-action="Sebet" asp-controller="Home" asp-route-id="@item.MehsulId" method="post">
+                       <button><i class="fa-solid fa-cart-shopping"></i>Səbətə at</button>
+                        </form>
+                    </div>
+                    </div>
+                </a>
+            </div>                
+            }
+            <div class="butun">
+                <a href="/Home/Mehsul">Bütün Məhsullar</a>
+            </div>
+        </div>
+    </section>
+    <section >
+        <div class="sliderr">
+            <h1>Seçilmiş Məhsullar</h1>
+        </div>
+        <div class="slider">
+            <div class="slide">
+              <img src="/img/slide5.jpg" alt="" class="img-responsive" />             
+            </div>
+            <div class="slide">
+              <img src="/img/slide1.jpg" alt="" class="img-responsive" />
+            </div>
+            <div class="slide">
+              <img src="/img/slide3.jpg" alt="" class="img-responsive" />
+            </div>
+            <div class="slide">
+              <img src="/img/slide2.jpg" alt="" class="img-responsive" />
+            </div>
+            <div class="slide">
+                <img src="/img/slide10.jpg" alt="" class="img-responsive" />
+            </div>
+        </div>     
+    </section>
+    <section class="video">
+    <div class="img1" data-aos="fade-right" data-aos-delay="100"
+         data-aos-duration="1000">
+                <h1>Çəhrayı Qızılgül</h1>
+                <p>101 Çəhrayı qızılgüldən hazırlanan əsrarəngiz buket. Elə isə səndə sevdiklərinlə birgə bu xoşbəxt anı yaşamaq üçün tələs.Ilk sifarisden sonra catdirilma endirimleri movcud olacaq.</p>
+               <a href="/Home/Mehsul">Mövcud məhsullar<i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+    <div class="biryerde" data-aos="fade-left" data-aos-delay="100"
+         data-aos-duration="1000">
+            <div class="img">
+                <i class="fa-solid fa-play"></i>
+                </div>
+        <div class="fon"></div>
+        </div>
+        <div class="video1">
+            <video controls="false">
+                <source src="~/img/pembe%20g%c3%bcllerden%20buket%20%c3%a7i%c3%a7ek%20dizayn%c4%b1%20%20_%20%c3%a7i%c3%a7ek%20filosu.mp4" type="video/mp4" />
+            </video>
+        </div>
+    </section>
+
+    <section class="divler">
+        <h1>Sizin Üçün Qısa Fraqment</h1>
+        <div class="divlerr">
+        <div class="divler1">
+            <a href="/Home/Mehsul">Mövcud məhsullar<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        <div class="divler2">
+            <a href="/Home/Mehsul">Mövcud məhsullar<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+        </div>
+    </section>
+   
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>

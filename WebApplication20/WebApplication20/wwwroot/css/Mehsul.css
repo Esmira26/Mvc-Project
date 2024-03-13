@@ -1,0 +1,554 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Vesper+Libre:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200&family=Pacifico&family=Vesper+Libre:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+}
+
+    body a {
+        text-decoration: none;
+    }
+
+.yumru {
+    position: fixed;
+    z-index: 1000000;
+    right: 30px;
+    bottom: 30px;
+    color: white;
+}
+
+    .yumru ul li {
+        list-style: none;
+    }
+
+    .yumru i {
+        width: 60px;
+        height: 60px;
+        font-size: 22px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 13px;
+    }
+
+    .yumru .nav-active {
+        height: 295px;
+    }
+
+    .yumru a {
+        color: white;
+    }
+
+    .yumru .fa-comment-dots {
+        color: white;
+        box-shadow: 0px 0px 3px white;
+        background-color: rgb(173 164 164);
+        cursor: pointer;
+    }
+
+    .yumru .fa-facebook-f {
+        background-color: rgb(63, 81, 181);
+        box-shadow: 0px 0px 3px white;
+        cursor: pointer;
+    }
+
+    .yumru .fa-instagram {
+        box-shadow: 0px 0px 3px white;
+        background-color: rgb(173, 19, 181);
+        cursor: pointer;
+    }
+
+.fa-whatsapp {
+    box-shadow: 0px 0px 3px white;
+    background-color: rgb(0, 230, 118);
+    cursor: pointer;
+}
+
+.fa-phone {
+    box-shadow: 0px 0px 3px white;
+    background-color: rgb(113, 202, 200);
+    cursor: pointer;
+}
+
+.yumru ul {
+    height: 0px;
+    transition: 1s;
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    height: 150px;
+    background-color: white;
+    padding-top: 20px;
+}
+
+.a1 {
+    text-align: center;
+}
+
+nav a h1 {
+    font-family: 'Pacifico', sans-serif;
+    font-weight: 100;
+    font-size: 28px;
+    cursor: pointer;
+    color: black;
+    margin-top:10px;
+}
+
+.ul ul li {
+    list-style: none;
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    font-size: 17px;
+    padding-left: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+nav img {
+    width: 4%;
+    height: 52px;
+    position: absolute;
+    right: 39.4%;
+    top: 4.3%;
+}
+
+.icon {
+    text-align: center;
+    width: 24%;
+    margin: 10px auto;
+    padding: 12px;
+    background-image: url(/img/19849-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+    .icon a i {
+        padding-left: 14px;
+        color: black;
+    }
+
+.ul {
+    background-color: #f7f2f2;
+    margin: 21px auto;
+    text-align:center;
+}
+.ul ul{
+    padding:18px;
+}
+header {
+    width: 100%;
+    display: flex;
+    margin-top: 70px;
+    position: relative;
+}
+
+.category {
+    width: 20%;
+    margin-left: 65px;
+    padding-top: 0px;
+    padding-left: 25px;
+    margin-top: 130px;
+}
+.cat{
+    margin-top:20px;
+    position:relative;
+}
+.cat h1 {
+    font-size: 17px;
+    padding-top: 2px;
+    font-family:'Poppins',sans-serif;
+    font-weight: 900;
+    color: black;
+    cursor:pointer;
+}
+    .cat p a {
+        color: #666161;
+    }
+.cat p {
+    font-weight: 500;
+    font-family: 'Poppins',sans-serif;
+    font-size: 19px;
+    padding-top: 5px;
+    color: #666161;
+    margin-bottom:0rem;
+}
+
+.buket:hover {
+    box-shadow: 0px 0px 20px silver;
+    background-color: white;
+}
+
+.buket h1 {
+    font-family: 'Outfit',sans-serif;
+    color: #666161;
+    font-weight:400;
+    font-size: 20px;
+}
+
+.buket p {
+    font-family: 'Outfit',sans-serif;
+    color: #666161;
+    font-size: 15px;
+    padding-top:5px;
+    margin-bottom:0rem;
+}
+
+.buket button i {
+    padding-right: 5px;
+}
+
+.buket button:hover {
+    background-color: white;
+    border: 1px solid #e09200;
+    color: #e09200;
+}
+
+.umumi {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.buket {
+    width: 27%;
+    margin-top: 20px;
+    text-align: center;
+    position: relative;
+    border-radius: 30px;
+    transition: 1s;
+}
+
+    .buket img {
+        width: 100%;
+        height: 255px;
+        border-radius: 10px;
+    }
+
+    .buket button {
+        display: block;
+        color: white;
+        background-color: #e09200;
+        border: 1px solid #e09200;
+        padding: 8px 30px;
+        border-radius: 30px;
+        cursor: pointer;
+        font-family:'Poppins',sans-serif;
+        font-weight:900;
+        font-weight: 600;
+        font-size: 16px;
+        margin: 10px auto;
+        transition: .7s;
+    }
+
+.love {
+    width: 36px;
+    height: 35px;
+    background-color: #e09200;
+    color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 2%;
+    right: 2.8%;
+    font-size: 20px;
+    padding-top: 3.6px;
+    z-index: 100000;
+    cursor: pointer;
+}
+
+.footer {
+    width: 100%;
+    margin-top: 55px;
+    text-align: center;
+}
+
+.footer1 {
+    position: relative;
+}
+
+    .footer1 h1 {
+        font-family: 'Pacifico', cursive;
+        font-size: 37px;
+        font-weight: 100;
+        cursor: pointer;
+    }
+
+        .footer1 h1::before {
+            width: 100px;
+            position: absolute;
+            content: "";
+            left: 46.3%;
+            right: 15px;
+            opacity: .7;
+            top: 32.4%;
+            height: 3px;
+            background-color: #e09200;
+            z-index: -1;
+            transition: 1s;
+        }
+
+        .footer1 h1:hover::before {
+            transform: scaleX(1.5);
+        }
+
+    .footer1 p {
+        padding-top: 20px;
+        font-size: 26px;
+        font-family: Outfit, sans-serif;
+        font-weight: 100;
+    }
+
+    .footer1 h3 {
+        padding-top: 0px;
+        font-size: 22px;
+        font-family: Outfit, sans-serif;
+        font-weight: 100;
+    }
+
+.footer2 {
+    width: 100%;
+    margin-top: 60px;
+    background-color: #ede8e8;
+    border-bottom: 1px solid #bfb1b1;
+    position: relative;
+}
+
+    .footer2 h1 {
+        font-family: 'Pacifico', cursive;
+        font-size: 30px;
+        font-weight: 100;
+        padding-top: 46px;
+        cursor: pointer;
+    }
+
+        .footer2 h1::before {
+            width: 138px;
+            position: absolute;
+            content: "";
+            left: 44.9%;
+            right: 15px;
+            opacity: .7;
+            top: 45%;
+            height: 3px;
+            background-color: #e09200;
+            z-index: 10000;
+            transition: 1s;
+        }
+
+        .footer2 h1:hover::before {
+            transform: scaleX(1.5);
+        }
+
+.icon1 {
+    width: 13.4%;
+    margin: auto;
+    display: flex;
+    margin-top: 28px;
+    font-size: 24px;
+    padding-bottom: 50px;
+}
+
+    .icon1 i {
+        margin-left: 13px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+    }
+
+        .icon1 i:hover {
+            color: white;
+            background-color: #e09200;
+        }
+
+.footer3 {
+    width: 100%;
+    background-color: #ede8e8;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: #666;
+    padding: 20px 20px;
+}
+
+.soz {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+    .soz h1 {
+        font-size: 16px;
+    }
+
+    .soz h2 {
+        font-size: 15px;
+        padding-left: 12px;
+    }
+
+.ahref a {
+    display: inline-block;
+    margin-left: 14px;
+    color: #666;
+}
+
+    .ahref a:hover {
+        color: #e09200;
+    }
+.buket h2 a {
+    text-decoration: none;
+    font-family:'Poppins',sans-serif;
+    font-weight: 900;
+    color: black;
+    font-size: 18.5px;
+    display:inline-block;
+    margin-top:7px;
+}
+.active a {
+    background-color: #e09200 !important;
+    border: 1px solid #e09200 !important;
+}
+@media(max-width:768px){
+    nav img {
+        top:29px;
+        width: 13%;
+        right: 15.4%;
+    }
+    .icon{
+        width:96%;
+    }
+    .ul ul li{
+        font-size:15px;
+    }
+    .category {
+       display:none;
+    }
+    .buket{
+        width:48%;
+    }
+    .umumi{
+        width:100%;
+        margin-top:15px;
+    }
+    .buket img{
+        height:188px;
+    }
+    .buket h2 a {
+        font-family: 'Poppins',sans-serif;
+        font-weight: 900;
+        padding: 2px !important;
+        font-size: 16px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis !important
+    }
+    .buket h2{
+        margin-bottom:0rem;
+    }
+    .buket h1{
+        font-size:17px;
+        margin-bottom:0rem;
+    }
+    .buket button {
+        padding: 6px 21px;
+    }
+    .footer {
+        margin-top: 30px;
+    }
+
+    .footer1 h1 {
+        font-size: 35px;
+    }
+
+        .footer1 h1::before {
+            left: 37.3%;
+        }
+
+    .footer1 p {
+        padding-top: 22px;
+        font-size: 23px;
+    }
+
+    .footer1 h3 {
+        font-size: 20px;
+    }
+
+    .footer2 h1 {
+        font-size: 28px;
+    }
+
+        .footer2 h1::before {
+            left: 32.9%;
+        }
+
+    .icon1 {
+        width: 43.4%;
+    }
+
+    .footer3 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .soz h2 {
+        font-size: 13px;
+    }
+
+    .soz h1 {
+        font-size: 13px;
+    }
+
+    .ahref {
+        margin-top: 10px;
+        font-size: 13px;
+    }
+
+    .kartlar {
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+        .kartlar img {
+            width: 90%;
+        }
+    .yumru {
+        right: -16px;
+        bottom: 10px;
+    }
+
+        .yumru .nav-active {
+            height: 265px;
+        }
+
+        .yumru i {
+            width: 55px;
+            height: 55px;
+            font-size: 21px;
+            margin-top: 11px;
+        }
+    .pagination ul {
+        width: 260px !important;
+        margin-bottom: 0rem !important;
+    }
+}

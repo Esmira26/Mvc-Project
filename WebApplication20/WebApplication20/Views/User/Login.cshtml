@@ -1,0 +1,70 @@
+﻿@model User;
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Russo+One&family=Send+Flowers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/Login.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <form asp-action="Login" asp-controller="User" method="post">
+        <div class="orta">
+            <div class="orta1">
+                <div class="yazi">
+                    <h1>Giriş</h1>
+                </div>
+                <div class="giris">
+                    <div class="mobil">
+                            <input type="radio" id="mobill">
+                        <label for="" class="">Mobil</label>
+                    </div>
+                    <div class="email">
+                            <input type="radio" name="parol" id="emaill">
+                        <label for="" class="">EPoçt</label>
+                    </div>
+                </div>
+                <div class="inpt">
+                        <div class="umumi53">
+                            <p class="emaill">Email</p> <input type="text" placeholder="" class="emm" asp-for="UserEmail">
+                        </div>
+                    <div class="umumi52">
+                            <p class="mobil">Mobil</p> <input type="text" placeholder="" class="mob" asp-for="UserPhone">
+                    <div class="select">
+                        <img src="	https://www.7gul.az/src/img/logo/azerbaijan.png" alt="">
+                                <select asp-for="UserTelefonId" asp-items="ViewBag.Telefons">
+                                    <option value="">50</option>
+                                </select>
+                    </div>
+                    </div>
+                        <p class="parol">Parol</p> <input type="password" placeholder="" asp-for="UserPassword">
+                </div>
+                <span class="span1">Şifrəni unutmusunuz?</span>
+                <button>Daxil olun</button>
+					<p class="p2">Hesabınız yoxdur? <a href="/User/Sign"><span class="span2">Pulsuz qeydiyyatdan keçin</span></a></p>
+            </div>
+        </form>
+            <div class="orta2">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="/img/login1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="/img/login11.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="/img/login5.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="/img/login9.jpg" alt=""></div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/js/Login.js"></script>
+</body>
+</html>

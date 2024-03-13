@@ -1,0 +1,264 @@
+﻿@using System.Security.Claims;
+@model WebApplication20.Controllers.HomeController.IndexModel;
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Russo+One&family=Send+Flowers&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/Sifaris.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="yumru">
+        <ul>
+            <li><a href="" target="_blank"><i class="fa-solid fa-phone"></i></a></li>
+            <li><a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a></li>
+        </ul>
+        <i class="fa-regular fa-comment-dots"></i>
+    </div>
+    <div class="umuminav">
+        <div class="nav1">
+            <input placeholder="Axtarın..." value="" type="text" />
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+        <div class="nav2">
+            <div class="axtaris-category"></div>
+            <div class="axtaris-product"></div>
+        </div>
+    </div>
+    <nav>
+        <a href="/Home/Index"><h1>Kharı Bulbul</h1><img src="/img/g9-removebg-preview.png"></a>
+        @if (User.Identity.IsAuthenticated)
+        {
+            if (User.FindFirst(ClaimTypes.NameIdentifier).Value == "Esmira")
+            {
+                <ul>
+                    <li>
+                        <a href="/Home/Index">
+                            Əsas səhifə
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#orta6">
+                            Məhsullar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Home/Hediyyeler">
+                            Hədiyyələr
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Home/Elaqe">
+                            Bizimlə əlaqə
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Home/Haqqimizda">
+                            Haqqımızda
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Admin/AdminPanel">
+                            @User.FindFirst(ClaimTypes.NameIdentifier).Value
+                        </a>
+                    </li>
+                </ul>
+                <div class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="/Home/Love"><i class="fa-solid fa-heart"></i></a>
+                    <a href="/Home/Sebet"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="/User/Cixis"><i class="fa-solid fa-right-to-bracket"></i></a>
+                </div>
+            }
+            else
+            {
+                <ul>
+                    <li>
+                        <a href="/Home/Index">
+                            Əsas səhifə
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#orta6">
+                            Məhsullar
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Home/Hediyyeler">
+                            Hədiyyələr
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/Home/Elaqe">
+                            Bizimlə əlaqə
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            @User.FindFirst(ClaimTypes.NameIdentifier).Value
+                        </a>
+                    </li>
+                </ul>
+                <div class="icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="/Home/Love"><i class="fa-solid fa-heart"></i></a>
+                    <a href="/Home/Sebet/@User.FindFirst(ClaimTypes.Sid).Value"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="/User/Cixis"><i class="fa-solid fa-right-to-bracket"></i></a>
+                </div>
+            }
+        }
+        else
+        {
+            <ul>
+                <li>
+                    <a href="/Home/Index">
+                        Əsas səhifə
+                    </a>
+                </li>
+                <li>
+                    <a href="#orta6">
+                        Məhsullar
+                    </a>
+                </li>
+                <li>
+                    <a href="/Home/Hediyyeler">
+                        Hədiyyələr
+                    </a>
+                </li>
+                <li>
+                    <a href="/User/Login">
+                        Bizimlə əlaqə
+                    </a>
+                </li>
+            </ul>
+            <div class="icon">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <a href="/User/Login"><i class="fa-solid fa-user"></i></a>
+                <a href="/User/Login"><i class="fa-solid fa-heart"></i></a>
+                <a href="/User/Login"><i class="fa-solid fa-cart-shopping"></i></a>
+            </div>
+        }
+    </nav>
+
+    <header>
+        <div class="h1">
+            <h1>Sifarişin rəsmiləşdirilməsi</h1>
+        </div>
+        <form asp-action="Sifaris" asp-controller="Home" method="post">
+        <div class="ikisi">
+            <div class="melumat">
+                <h1 class="h2">Müştəri məlumatları</h1>
+
+                <div class="input">
+                    <p class="p1">Ad</p>
+                    <input type="text" asp-for="Musteri.MusteriAd">
+                    <p class="p2">Əlaqə nömrəsi</p>
+                    <input type="text" asp-for="Musteri.MusteriTel">
+                </div>
+                <h1 class="h3">Çatdırılma məlumatları</h1>
+                <div class="catdirilma">
+                    <p>Çatdırılma üsulları</p>
+                        <select asp-items="ViewBag.Catdirilma" asp-for="Musteri.MusteriCatdirilmaId">
+                        <option value="">Seçin</option>
+                    </select>
+                </div>
+                <div class="elave">
+                    <h1 class="h4">Əlavə məlumat və qeydlər</h1>
+                    <textarea cols="30" rows="10" asp-for="Musteri.MusteriQeyd"></textarea>
+                </div>
+            </div>
+            <div class="kart">
+                <img src="/img/logo-removebg-preview.png" alt="">
+                <div class="kart1">
+                    <h1>Kart məlumatını daxil edin</h1>
+                    <input type="text placeholder="Kartın nömrəsi" class="nomre" asp-for="Musteri.MusteriKarti">
+                    <div class="kart2">
+                        <input type="text" placeholder="MM/YY" asp-for="Musteri.MusteriKartTarixi">
+                        <input type="text" placeholder="CVV2" class="cvv2" asp-for="Musteri.MusteriKartKodu">
+                    </div>
+                </div>
+                <div class="kart3">
+                    <h1>Ödəniş məlumatları</h1>
+                    <div class="mebleg">
+                        <p>Sifariş məbləği</p>
+
+    @{int? price = 0;
+    foreach(var i in Model.Sebets)
+    {
+        price +=i.SebetMehsul.MehsulQiymeti*i.SebetMehsulCount;
+    }
+    }
+                        <span>@(price).00 AZN</span>
+                    </div>
+                    <div class="nomre">
+                        <p>Məhsulun kodu</p>
+                            @foreach(var v in Model.Sebets)
+                            {
+                                
+                            <span>@v.SebetMehsul.MehsulunKodu</span>
+                            }
+                    </div>                           
+                    <div class="btn10">
+                        <button class="ode">Ödəmək</button>
+
+                        <a href="/Home/Index"><button class="imtina">İmtina etmək</button></a>
+                    </div>
+
+
+                    <div class="imgs">
+                        <img src="https://agciceyim.az/data/payment_icons/3.png" alt="">
+                        <img src="https://agciceyim.az/data/payment_icons/4.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pencere">
+            <i class="fa-solid fa-square-check"></i>
+            <h1>Sifarişiniz təsdiqləndi.</h1>
+            <p>Tezliklə sizinlə əlaqə saxlanılacaq 😃</p>
+        </div>
+                </form>
+    </header>
+
+    <section class="footer">
+        <div class="footer1">
+            <h1>Əlaqə</h1>
+            <p>+99450 671 74 23</p>
+            <h3>Çatdırılma 24/7</h3>
+        </div>
+        <div class="footer2">
+            <h1>Bizi Izləyin</h1>
+            <div class="icon1">
+                <a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+        <div class="footer3">
+            <div class="soz">
+                <h1>© 2021-2023 Kharı Bulbul</h1>
+                <h2>A2Studio tərəfindən yaradılıb</h2>
+            </div>
+            <div class="ahref">
+                <a href="/sifaris.html">Çatdırılma və ödəniş</a>
+                <a href="">Filiallar</a>
+                <a href="">Statuslar</a>
+            </div>
+            <div class="kartlar">
+                <img src="https://agciceyim.az/data/payment_icons/3.png" alt="">
+                <img src="https://agciceyim.az/data/payment_icons/4.png" alt="">
+            </div>
+        </div>
+    </section>
+    <script src="/js/Sifaris.js"></script>
+</body>
+</html>
